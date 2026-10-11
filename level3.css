@@ -1,0 +1,10 @@
+div{
+    height:400px;
+    width:400px;
+    background-image:url("nature_image.jpg");
+    background-size: cover;
+    color:white;
+    position:relative;
+    left:1000px;
+}
+ 
