@@ -1,5 +1,6 @@
 h1{
     color:red;
+    text-align : center;
 }
 p{
     color:rgb(66, 214, 66);
@@ -8,8 +9,12 @@ button{
     color:rgb(58, 4, 4);
 }
 body{
-    background-color:black;
+    background-color:rgb(67, 12, 12);
 }
 button{
     background-color:bisque;
 }
+p{
+    text-align : left;
+    font-family:arial;
+} 
