@@ -1,16 +1,16 @@
 *{
-    margin:0;
-    font-family:arial;
-    border:border-box;
+    margin : 0;
+    font-family : arial;
+    border : border-box;
 }
 
 .navbar{
-    height:60px;
-    background-color:#0f1111;
-    color:white;
-    display:flex;
-    align-items:center;
-    justify-content: space-evenly;
+    height : 60px;
+    background-color : #0f1111;
+    color : white;
+    display : flex;
+    align-items : center;
+    justify-content : space-evenly;
 }
 
 .nav-logo{
@@ -22,92 +22,92 @@
 .logo{
     height : 60px;
     width : 100%;  
-    position:relative;
-    transform:translatey(-20px);
+    position : relative;
+    transform : translatey(-20px);
     background-image : url(amazon-logo.png);
-    background-size: cover;
+    background-size : cover;
     
 }
 
 .border{
-    border:1.5px solid transparent;
+    border : 1.5px solid transparent;
 }
 
 .border:hover{
-    border:1.5px solid white;
+    border : 1.5px solid white;
 }
  
 .add-first{
-    color:#cccccc;
-    font-size: 0.82rem;
-    margin-left:20px;
+    color : #cccccc;
+    font-size : 0.82rem;
+    margin-left : 20px;
 }
 
 .add-second{
-    color:#ffffff;
-    font-size:1rem;
-    margin-left:3px;
+    color : #ffffff;
+    font-size : 1rem;
+    margin-left : 3px;
 }
 
 .add-icon{
-    display:flex;
-    align-items:center;
+    display : flex;
+    align-items : center;
 }
 
 /*box3*/
 
 .nav-search{
-    display:flex;
-    justify-content: space-evenly;
-    width:620px;
-    border-radius:4px;
-    background-color:orange;
-    height:40px;  
+    display : flex;
+    justify-content : space-evenly;
+    width : 620px;
+    border-radius : 4px;
+    background-color : orange;
+    height : 40px;  
 }
 
 .select-option{
-   background-color: #f3f3f3;
-   width:50px;
-   text-align:center;
-   border-top-left-radius: 4px;
-   border-bottom-left-radius: 4px;
-   border:none;
+   background-color : #f3f3f3;
+   width : 50px;
+   text-align : center;
+   border-top-left-radius : 4px;
+   border-bottom-left-radius : 4px;
+   border : none;
 }
 
 .search-input{
-    width:100%;
-    font-size:1rem;
-    border:none;
+    width : 100%;
+    font-size : 1rem;
+    border : none;
 }
 
 
 .search-icon{
-    border-top-left-radius: 4px;
-    border-bottom: 4px;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    width:45px;
-    color:black;
-    border:none;
-    font-size:1.2rem;
+    border-top-left-radius : 4px;
+    border-bottom : 4px;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+    width : 45px;
+    color : black;
+    border : none;
+    font-size : 1.2rem;
     
 }
 
 /*box 4*/
 
 span{
-    font-size:0.8rem;
+    font-size : 0.8rem;
 
 }
 
 .nav-account{
-    font-size:0.95rem;
-    font-weight:700;
+    font-size : 0.95rem;
+    font-weight : 700;
 }
 
 .nav-search:hover{
-    border:2px solid orange;
+    border : 2px solid orange;
 }
 
 .nav-cart i{
@@ -115,7 +115,40 @@ span{
 }
 
 .nav-cart{
-    font-size:0.85rem;
-    font-weight:700 ;
+    font-size : 0.85rem;
+    font-weight : 700 ;
 
+}
+
+/* Panel div and options */
+
+.panel{
+    height : 40px;
+    background-color : #222f3d;
+    display : flex;
+    align-items : center;
+    justify-content : space-evenly;
+    color : white;
+
+}
+
+.panel-option{
+    width : 70%;
+    font-size : 0.9rem;
+}
+
+.panel-option p {
+        margin : 10px,0px,10px;
+        word-spacing : 8px;
+        margin-left : 15px; 
+}
+
+.panel-all{
+    display : inline;
+
+}
+.gift-icon{
+    font-size : 18px;
+    font-weight : 700; 
+   
 }
